@@ -1,16 +1,14 @@
 {
   "name": "pinterest-api",
   "version": "1.0.0",
-  "description": "Node.js API to fetch 30 Pinterest images by keyword",
+  "description": "Pinterest Scraper API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Sagor",
-  "license": "MIT",
   "dependencies": {
     "axios": "^1.6.0",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "cheerio": "^1.0.0-rc.12"
   }
 }
