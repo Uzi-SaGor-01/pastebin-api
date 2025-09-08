@@ -1,0 +1,22 @@
+{
+  "name": "pastebin-raw-api",
+  "version": "1.0.0",
+  "description": "Simple API to fetch Pastebin raw content",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "pastebin",
+    "api",
+    "raw",
+    "express"
+  ],
+  "author": "SAGOR",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
