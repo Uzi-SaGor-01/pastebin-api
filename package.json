@@ -1,14 +1,18 @@
 {
-  "name": "pinterest-api",
+  "name": "media-upload-api",
   "version": "1.0.0",
-  "description": "Pinterest Scraper API",
-  "main": "server.js",
+  "description": "Vercel API to upload Image, GIF, Video",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "vercel dev"
   },
+  "keywords": ["image", "gif", "video", "upload", "api"],
+  "author": "SaGor",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.6.0",
-    "express": "^4.18.2",
-    "cheerio": "^1.0.0-rc.12"
+    "form-data": "^5.1.0",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
   }
 }
